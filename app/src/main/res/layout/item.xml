@@ -15,8 +15,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/text_size"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             tools:text="City" />
 
         <TextView
@@ -24,8 +24,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/text_size"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             tools:text="Weather" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

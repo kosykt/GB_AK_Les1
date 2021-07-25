@@ -1,7 +1,7 @@
 package ru.kostrykt.gb_ak_les1.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import ru.kostrykt.gb_ak_les1.R
 import ru.kostrykt.gb_ak_les1.repository.RepositoryObject

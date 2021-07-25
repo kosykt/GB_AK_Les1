@@ -9,9 +9,10 @@ import ru.kostrykt.gb_ak_les1.R
 import ru.kostrykt.gb_ak_les1.data.Weather
 import ru.kostrykt.gb_ak_les1.repository.IRepository
 
-class WeatherAdapter (private val repository: IRepository) : RecyclerView.Adapter <WeatherAdapter.WeatherVeiwHolder>(){
+class WeatherAdapter(private val repository: IRepository) :
+    RecyclerView.Adapter<WeatherAdapter.WeatherVeiwHolder>() {
 
-    class WeatherVeiwHolder(val item: View) : RecyclerView.ViewHolder(item){
+    class WeatherVeiwHolder(item: View) : RecyclerView.ViewHolder(item) {
 
         private val city: TextView
         private val temperature: TextView
@@ -21,7 +22,7 @@ class WeatherAdapter (private val repository: IRepository) : RecyclerView.Adapte
             temperature = item.findViewById(R.id.textTemperature)
         }
 
-        fun bind(weather: Weather){
+        fun bind(weather: Weather) {
             city.text = weather.cityName
             temperature.text = weather.temperature.toString()
         }
