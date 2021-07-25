@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">GB_AK_Les1</string>
-    <string name="first_button">my button</string>
+    <string name="my_button">my button</string>
 </resources>
